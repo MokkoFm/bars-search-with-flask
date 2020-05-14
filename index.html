@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c10b8adeaf684160af8bd75933a3524f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c10b8adeaf684160af8bd75933a3524f" ></div>
+        
+</body>
+<script>    
+    
+            var map_c10b8adeaf684160af8bd75933a3524f = L.map(
+                "map_c10b8adeaf684160af8bd75933a3524f",
+                {
+                    center: [58.435478, 92.311175],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_97a9d50b5f484ee7a26de439df3496a2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c10b8adeaf684160af8bd75933a3524f);
+        
+    
+            var marker_f70a19df52934eceb9f180177dd884f3 = L.marker(
+                [55.702704, 37.930985],
+                {}
+            ).addTo(map_c10b8adeaf684160af8bd75933a3524f);
+        
+    
+        var popup_4e9a6eb07d3b486e96d667a1f020d835 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e93859336ab94ffdb31b547d0e2e46af = $(`<div id="html_e93859336ab94ffdb31b547d0e2e46af" style="width: 100.0%; height: 100.0%;">Разливные напитки</div>`)[0];
+            popup_4e9a6eb07d3b486e96d667a1f020d835.setContent(html_e93859336ab94ffdb31b547d0e2e46af);
+        
+
+        marker_f70a19df52934eceb9f180177dd884f3.bindPopup(popup_4e9a6eb07d3b486e96d667a1f020d835)
+        ;
+
+        
+    
+    
+            marker_f70a19df52934eceb9f180177dd884f3.bindTooltip(
+                `<div>
+                     Нажми на меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c64b0cade66b4bdf912e475ae54eb048 = L.marker(
+                [55.812097776431955, 37.81639696743121],
+                {}
+            ).addTo(map_c10b8adeaf684160af8bd75933a3524f);
+        
+    
+        var popup_9d34f72b515645d0b06cc6356ff81fb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_765c9ccfc1a046d287f3a65435395d20 = $(`<div id="html_765c9ccfc1a046d287f3a65435395d20" style="width: 100.0%; height: 100.0%;">Пиво-воды</div>`)[0];
+            popup_9d34f72b515645d0b06cc6356ff81fb2.setContent(html_765c9ccfc1a046d287f3a65435395d20);
+        
+
+        marker_c64b0cade66b4bdf912e475ae54eb048.bindPopup(popup_9d34f72b515645d0b06cc6356ff81fb2)
+        ;
+
+        
+    
+    
+            marker_c64b0cade66b4bdf912e475ae54eb048.bindTooltip(
+                `<div>
+                     Нажми на меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7762f9756d249deaac68f786953d238 = L.marker(
+                [55.809960008207376, 37.80936984757147],
+                {}
+            ).addTo(map_c10b8adeaf684160af8bd75933a3524f);
+        
+    
+        var popup_59ad5306d03242bf9c369eefc5e76ec1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18760ac2e21f4e189b8307f8effa2020 = $(`<div id="html_18760ac2e21f4e189b8307f8effa2020" style="width: 100.0%; height: 100.0%;">Кальянная Garnet Loung</div>`)[0];
+            popup_59ad5306d03242bf9c369eefc5e76ec1.setContent(html_18760ac2e21f4e189b8307f8effa2020);
+        
+
+        marker_b7762f9756d249deaac68f786953d238.bindPopup(popup_59ad5306d03242bf9c369eefc5e76ec1)
+        ;
+
+        
+    
+    
+            marker_b7762f9756d249deaac68f786953d238.bindTooltip(
+                `<div>
+                     Нажми на меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56095d6d05c241a9bba4e2eb6c360f4b = L.marker(
+                [55.711924, 37.898591],
+                {}
+            ).addTo(map_c10b8adeaf684160af8bd75933a3524f);
+        
+    
+        var popup_de053c392380480bb703848b66840748 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0526e47c51064e7a9439dac300a9cd97 = $(`<div id="html_0526e47c51064e7a9439dac300a9cd97" style="width: 100.0%; height: 100.0%;">Tea & Smoke</div>`)[0];
+            popup_de053c392380480bb703848b66840748.setContent(html_0526e47c51064e7a9439dac300a9cd97);
+        
+
+        marker_56095d6d05c241a9bba4e2eb6c360f4b.bindPopup(popup_de053c392380480bb703848b66840748)
+        ;
+
+        
+    
+    
+            marker_56095d6d05c241a9bba4e2eb6c360f4b.bindTooltip(
+                `<div>
+                     Нажми на меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9a4d758845a4e22bb224f6748aadd7f = L.marker(
+                [55.71287229920818, 37.89704106229754],
+                {}
+            ).addTo(map_c10b8adeaf684160af8bd75933a3524f);
+        
+    
+        var popup_39fed97de2bc4c3d8244d4c7552a40e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0c74b78e10542c7aa06b4801f1183e1 = $(`<div id="html_d0c74b78e10542c7aa06b4801f1183e1" style="width: 100.0%; height: 100.0%;">24 Градуса</div>`)[0];
+            popup_39fed97de2bc4c3d8244d4c7552a40e8.setContent(html_d0c74b78e10542c7aa06b4801f1183e1);
+        
+
+        marker_b9a4d758845a4e22bb224f6748aadd7f.bindPopup(popup_39fed97de2bc4c3d8244d4c7552a40e8)
+        ;
+
+        
+    
+    
+            marker_b9a4d758845a4e22bb224f6748aadd7f.bindTooltip(
+                `<div>
+                     Нажми на меня!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
